@@ -4,7 +4,7 @@ import { nxViteTsPaths } from '@nx/vite/plugins/nx-tsconfig-paths.plugin';
 
 export default defineConfig({
   root: __dirname,
-  cacheDir: './node_modules/.vite/acme',
+  cacheDir: './node_modules/.vite/nx-svelte-kit',
 
   plugins: [nxViteTsPaths()],
 
@@ -19,6 +19,6 @@ export default defineConfig({
     environment: 'node',
     include: ['src/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
     reporters: ['default'],
-    coverage: { reportsDirectory: './coverage/acme', provider: 'v8' },
+    coverage: { reportsDirectory: './coverage/nx-svelte-kit', provider: 'v8' },
   },
 });

@@ -14,7 +14,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@acme/source": ["src/index.ts"]
+      "@nx-svelte-kit/source": ["src/index.ts"]
     }
   },
   "files": [],
